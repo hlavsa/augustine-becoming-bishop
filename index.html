@@ -1,22 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
   <head>
+    <meta charset="UTF-8" />
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Jsem zkušený full-stack vývojář z Prahy se specializací na frontendový i backendový vývoj a infrastrukturní řešení. Pomohu vám vytvořit robustní a škálovatelné webové aplikace."
+    />
+
+    <!-- Keywords (Replace with relevant keywords) -->
+    <meta
+      name="keywords"
+      content="Full Stack Developer, Web Development, Web Developer, Software Engineer, Ruby on Rails, React, Node.js, Portfolio, Projects, Collaboration"
+    />
+
+    <!-- Author (Your Name) -->
+    <meta name="author" content="Jaroslav Hlavsa" />
+    <title>Ondřej Ezr: Full-stack developer</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Favicon (32x32px PNG) -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Canonical URL (if applicable) -->
+    <link rel="canonical" href="https://www.yourwebsite.com" />
+
+    <!-- Open Graph Meta Tags (for social sharing) -->
+    <meta property="og:title" content="Ondřej Ezr - Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="I'm a skilled full-stack developer based in [Your Location]. I specialize in web development and can turn your ideas into high-quality, interactive websites and web applications. Let's collaborate to bring your digital projects to life."
+    />
+    <meta
+      property="og:image"
+      content="https://www.yourwebsite.com/og-image.jpg"
+    />
+    <meta property="og:url" content="https://www.yourwebsite.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags (for Twitter sharing) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ondřej Ezr - Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="I'm a skilled full-stack developer based in [Your Location]. I specialize in web development and can turn your ideas into high-quality, interactive websites and web applications. Let's collaborate to bring your digital projects to life."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.yourwebsite.com/twitter-image.jpg"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Robots Meta Tags -->
+    <meta name="robots" content="index, follow" />
     <style>
       body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 100vh;
         background-color: #f0f0f0; /* Change the background color as needed */
       }
-      .container {
-        text-align: center;
+      span {
+        font-size: clamp(16px, 5vw, 24px);
+        margin-bottom: 8px;
       }
       h1 {
         font-size: clamp(24px, 5vw, 48px);
-        margin-bottom: 20px;
+        margin-bottom: 24px;
       }
       .image-container {
         max-height: 100vh; /* Ensure the image doesn't exceed 100vh in height */
@@ -28,9 +84,40 @@
     </style>
   </head>
   <body>
+    <div class="pt-12">
+      <div class="flex items-center">
+        <div class="">
+          <span
+            class="p-4 dd transition ease-in-out delay-50 hover:bg-transparent underline-offset-4 hover:underline"
+            id="myHeading"
+          >
+            Somewhere in the 4th century AD
+          </span>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
+        <div class="pl-8 md:pl-24 pr-10 md:pr-18">
+          <div class="flex flex-col justify-between h-full py-20">
+            <div class="">
+              <h1 class="text-2xl md:text-xl">
+                How Augustine of Hippo became a bishop. Probably.
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="image-container">
+          <div class="w-auto h-4/5 ml-0 md:ml-24 relative">
+            <img
+              src="image.jpg"
+              alt="Comic strip where antique peasantry holding myrtle is running after Augustine of Hippo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <span>Somewhere in the 4th century AD</span>
-      <h1>How did Augustine of Hippo become a bishop. Propably.</h1>
+      <h1>How Augustine became a bishop. Probably.</h1>
       <img
         src="image.jpg"
         alt="Comic strip where antique peasantry holding myrtle is running after Augustine of Hippo"
