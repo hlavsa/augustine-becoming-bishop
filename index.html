@@ -64,19 +64,12 @@
         font-family: serif;
       }
       span {
-        font-size: clamp(16px, 5vw, 24px);
+        font-size: clamp(16px, 5vw, 24px) !important;
         margin-bottom: 8px;
       }
       h1 {
-        font-size: clamp(24px, 5vw, 48px);
+        font-size: clamp(24px, 5vw, 48px) !important;
         margin-bottom: 24px;
-      }
-      .image-container {
-        max-height: 100vh; /* Ensure the image doesn't exceed 100vh in height */
-      }
-      img {
-        max-width: 100%;
-        max-height: 100%; /* Make the image fit within 100vh */
       }
     </style>
   </head>
@@ -85,7 +78,7 @@
       <div class="flex items-center justify-center">
         <div class="mb-12">
           <span class="p-4 dd transition ease-in-out delay-50" id="myHeading">
-            Somewhere in the 4th century AD
+            Somewhere at the 4th century AD
           </span>
         </div>
       </div>
