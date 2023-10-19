@@ -13,23 +13,24 @@
       }
       .container {
         text-align: center;
-        max-width: 1140px; /* Limit the container width to 1140px */
-        width: 100%; /* Make sure it doesn't exceed the viewport width */
-        padding: 0 20px; /* Add some padding for a better appearance */
       }
       h1 {
         font-size: clamp(24px, 5vw, 48px);
         margin-bottom: 20px;
       }
+      .image-container {
+        max-height: 100vh; /* Ensure the image doesn't exceed 100vh in height */
+      }
       img {
         max-width: 100%;
-        height: auto;
+        max-height: 100%; /* Make the image fit within 100vh */
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Your Heading</h1>
+      <span>Somewhere in the 4th century AD</span>
+      <h1>How did Augustine of Hippo become a bishop. Propably.</h1>
       <img
         src="image.jpg"
         alt="Comic strip where antique peasantry holding myrtle is running after Augustine of Hippo"
